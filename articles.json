@@ -1,0 +1,122 @@
+articleList = [
+  {
+    "title": "How to handle state in React. The missing FAQ.",
+    "author": "Osmel Mora",
+    "img": "https://s3.amazonaws.com/scrblr/480/j1092la5.jpg",
+    "category": "Culture"
+  },
+  {
+    "title": "You might not need React Router",
+    "author": "Konstantin Tarkus",
+    "img": "https://s3.amazonaws.com/scrblr/480/j0chxkc6.jpg",
+    "category": "Politics"
+  },
+  {
+    "title": "Mixins Considered Harmful",
+    "author": "Dan Abramov",
+    "img": "https://s3.amazonaws.com/scrblr/480/j0cgwoym.jpgl",
+    "category": "Technology"
+  },
+  {
+    "title": "React Design Principles",
+    "author": "Dan Abramov",
+    "img": "https://s3.amazonaws.com/scrblr/480/j0b2kw0f.jpg",
+    "category": "Politics"
+  },
+  {
+    "title": "Don't use .bind() when passing props",
+    "author": "Dave Ceddia",
+    "img": "https://s3.amazonaws.com/scrblr/480/iwyjnfnp.jpg",
+    "category": "Interviews"
+  },
+  {
+    "title": "Fossil fuel money crushed clean energy ballot initiatives across the country",
+    "author": "David Roberts",
+    "img": "https://s3.amazonaws.com/scrblr/480/j1092la5.jpg",
+    "category": "Culture"
+  },
+  {
+    "title": "You might not need React Router",
+    "author": "Konstantin Tarkus",
+    "img": "https://s3.amazonaws.com/scrblr/480/j0chxkc6.jpg",
+    "category": "Politics"
+  },
+  {
+    "title": "Mixins Considered Harmful",
+    "author": "Dan Abramov",
+    "img": "https://s3.amazonaws.com/scrblr/480/j0cgwoym.jpgl",
+    "category": "Technology"
+  },
+  {
+    "title": "React Design Principles",
+    "author": "Dan Abramov",
+    "img": "https://s3.amazonaws.com/scrblr/480/j0b2kw0f.jpg",
+    "category": "Politics"
+  },
+  {
+    "title": "Don't use .bind() when passing props",
+    "author": "Dave Ceddia",
+    "img": "https://s3.amazonaws.com/scrblr/480/iwyjnfnp.jpg",
+    "category": "Interviews"
+  },
+  {
+    "title": "How to handle state in React. The missing FAQ.",
+    "author": "Osmel Mora",
+    "img": "https://s3.amazonaws.com/scrblr/480/j1092la5.jpg",
+    "category": "Culture"
+  },
+  {
+    "title": "You might not need React Router",
+    "author": "Konstantin Tarkus",
+    "img": "https://s3.amazonaws.com/scrblr/480/j0chxkc6.jpg",
+    "category": "Politics"
+  },
+  {
+    "title": "Mixins Considered Harmful",
+    "author": "Dan Abramov",
+    "img": "https://s3.amazonaws.com/scrblr/480/j0cgwoym.jpgl",
+    "category": "Technology"
+  },
+  {
+    "title": "React Design Principles",
+    "author": "Dan Abramov",
+    "img": "https://s3.amazonaws.com/scrblr/480/j0b2kw0f.jpg",
+    "category": "Politics"
+  },
+  {
+    "title": "Don't use .bind() when passing props",
+    "author": "Dave Ceddia",
+    "img": "https://s3.amazonaws.com/scrblr/480/iwyjnfnp.jpg",
+    "category": "Interviews"
+  },
+  {
+    "title": "How to handle state in React. The missing FAQ.",
+    "author": "Osmel Mora",
+    "img": "https://s3.amazonaws.com/scrblr/480/j1092la5.jpg",
+    "category": "Culture"
+  },
+  {
+    "title": "You might not need React Router",
+    "author": "Konstantin Tarkus",
+    "img": "https://s3.amazonaws.com/scrblr/480/j0chxkc6.jpg",
+    "category": "Politics"
+  },
+  {
+    "title": "Mixins Considered Harmful",
+    "author": "Dan Abramov",
+    "img": "https://s3.amazonaws.com/scrblr/480/j0cgwoym.jpgl",
+    "category": "Technology"
+  },
+  {
+    "title": "React Design Principles",
+    "author": "Dan Abramov",
+    "img": "https://s3.amazonaws.com/scrblr/480/j0b2kw0f.jpg",
+    "category": "Politics"
+  },
+  {
+    "title": "Don't use .bind() when passing props",
+    "author": "Dave Ceddia",
+    "img": "https://s3.amazonaws.com/scrblr/480/iwyjnfnp.jpg",
+    "category": "Interviews"
+  }
+]
