@@ -1,11 +1,15 @@
 import React from 'react';
 import ArticleContainer from './ArticleContainer';
+import Header from './Header';
 
 
 function App(){
 
   return(
-    <ArticleContainer/>
+    <div>
+      <Header/>
+      <ArticleContainer/>
+    </div>
   );
 
 }

@@ -4,7 +4,16 @@ import PropTypes from 'prop-types';
 function ArticleAuthor(props){
 
   return(
-    <p>{props.author}</p>
+    <h3 className="author"><strong>{props.author}</strong>
+      <style jsx>{`
+        .author {
+          font-weight: 400;
+          font-style: italic;
+          font-family: lora;
+          letter-spacing: 1px;
+        }
+          `}</style>
+    </h3>
   );
 
 }

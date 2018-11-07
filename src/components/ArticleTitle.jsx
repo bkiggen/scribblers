@@ -4,7 +4,15 @@ import PropTypes from 'prop-types';
 function ArticleTitle(props){
 
   return(
-    <h4>{props.title}</h4>
+    <div>
+      <h2 className="titleDiv">{props.title}</h2>
+      <style jsx>{`
+          .titleDiv {
+            width: 275px;
+            font-weight: 500;
+          }
+            `}</style>
+    </div>
   );
 
 }

@@ -4,13 +4,18 @@ import PropTypes from 'prop-types';
 function ArticleImage(props){
 
   return(
-    <div>
+    <div className="articleImageDiv">
       <img src={props.img} className="articleImage"/>
-        <style jsx>{`
+      <style jsx>{`
+            .articleImageDiv {
+              width: 318px;
+              height: 200px;
+              overflow: hidden;
+            }
             .articleImage {
               width: 318px;
-              height: 212px;
             }
+
             `}</style>
 
     </div>

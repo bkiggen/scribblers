@@ -4,7 +4,9 @@ import PropTypes from 'prop-types';
 function ArticleBody(props){
 
   return(
-    <p>{props.body}</p>
+    <div>
+      <p>{props.body}</p>
+    </div>
   );
 
 }
