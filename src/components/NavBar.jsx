@@ -1,12 +1,12 @@
 import React from 'react';
 
 
-function App(){
+function NavBar(){
 
   return(
-    
+
   );
 
 }
 
-export default App;
+export default NavBar;

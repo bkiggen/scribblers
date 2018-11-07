@@ -1,12 +1,12 @@
 import React from 'react';
 
 
-function App(){
+function Title(){
 
   return(
-    
+
   );
 
 }
 
-export default App;
+export default Title;
