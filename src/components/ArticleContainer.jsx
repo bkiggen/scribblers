@@ -4,6 +4,7 @@ import ArticleAuthor from './ArticleAuthor';
 import ArticleImage from './ArticleImage';
 import ArticleTitle from './ArticleTitle';
 import ArticleCategory from './ArticleCategory';
+import PropTypes from 'prop-types';
 
 
 const articleList = [
@@ -150,7 +151,7 @@ const articleList = [
 ];
 
 
-function ArticleContainer(){
+function ArticleContainer(props){
 
   return(
 
@@ -176,7 +177,7 @@ function ArticleContainer(){
               margin: 0 auto;
             }
             `}</style>
-      {articleList.map((article, index) =>
+          {articleList.map((article, index) =>
         <div key={index} className="inner-article-container">
           <ArticleCategory category={article.category}/>
           <ArticleImage img={article.img}/>

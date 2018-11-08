@@ -18,7 +18,7 @@ function MenuBar(){
         `}</style>
     </div>
 
-);
+  );
 
 }
 

@@ -1,13 +1,18 @@
 import React from 'react';
+import  { Link }  from 'react-router-dom';
 
-const navArray = ["Politics", "Originals", "Technology", "Identity", "Culture", "Arts", "Interviews", "Sports", "Editorial"];
 
 function NavBar(){
-
+  const navArray = ['Politics', 'Originals', 'Technology', 'Identity', 'Culture', 'Arts', 'Interviews', 'Sports', 'Editorial'];
+  const navStyles = {
+    textDecoration: "none",
+    color: "#aaa",
+    fontFamily: "Montserrat"
+  }
   return(
-    <ul>
+    <div className="link-container">
       <style jsx>{`
-          ul {
+          .link-container {
             list-style: none;
             display: flex;
             justify-content: space-between;
@@ -15,19 +20,21 @@ function NavBar(){
             margin: 0 auto;
             padding-inline-start: 0px;
           }
-          li {
-            padding: 8px;
+          Link:hover {
+            color: black;
           }
-          a {
-            text-decoration: none;
-            color: #aaa;
+
+          h1 {
+            text-align: center;
             font-family: Montserrat;
+            letter-spacing: .3rem;
+            font-weight: 300;
           }
             `}</style>
       {navArray.map((navItem, index) =>
-        <li key={index}><a href="#">{navItem}</a></li>
+        <Link style={navStyles} key={index} to={`/${navItem}`}>{navItem}</Link>
       )}
-    </ul>
+    </div>
   );
 
 }
